@@ -1,0 +1,10 @@
+export interface Profile {
+  id: string;
+  username: string;
+  full_name: string;
+  avatar_url: string;
+  email?: string;
+  bio?: string;
+  custom_status?: string;
+  app_metadata?: { role?: string };
+}
